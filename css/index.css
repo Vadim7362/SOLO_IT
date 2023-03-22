@@ -27,8 +27,9 @@
   border: none;
 }
 
-.button{
+.button {
   margin: 20px 0 30px;
+  background-color: #0099cc;
 }
 
 .warning {
