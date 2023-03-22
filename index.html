@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIZON and BITRIX</title>
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <section class="data-filling">
+      <h2 class="title">Доступ к Bizon</h2>
+      <a href="https://bizon365.ru/" target="_blank">Перейти на Bizon</a>
+      <h3 class="status"> 
+      <img width="20" height="20" src="img/icons/check mark.svg">
+        Bizon 365 подключен верно
+      </h3>
+      <form class="info">
+        <h4 class="subtitle">E-mail</h4>
+        <div class="E-mail">
+          <input class="meaning" type="email"> 
+          <img width="20" height="20" src="img/icons/envelope.svg">
+        </div>
+        <h4 class="subtitle">API-токен</h4>
+        <div class="E-mail">
+          <input class="meaning" type="text"> 
+          <img width="20" height="20" src="img/icons/padlock.svg">
+        </div>
+        <input class="button" type="submit" value="Сохранить">
+      </form>
+    </section>
+    <section class="warning">
+      <div class="warning-setting">
+        <h2 class="warning-title">
+          <img width="20" height="20" src="img/icons/check mark.svg">
+            ВАЖНО!
+          </h2>
+          <p class="warning-text">
+            1. В Bizon не забывайте нажать сохранить «API-токен», не просто сгенерировать, а обязательно надо нажать СОХРАНИТЬ!
+          </p>
+          <br>
+          <p class="warning-text">
+            2. API Bizon работает через «Страницы регистрации» самого бизона - они нужны для регистрации пользователей в Bizon. <br>
+            Т.е. если нужна смена даты - в Bizon должна быть создана страница регистрации и к ней должна быть прикреплена комната. <br>
+            Если нужно собирать базу в Bizon, также нужно страница регистрации, плюс подключена услуга «Страницы регистрации».
+          </p>
+          <img class="warning-close" src="img/icons/close.png" alt="close">
+      </div>
+    </section>
+    <section class="education">
+      <h2 class="title">Где взять «API-токен»</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4Q9-v2L4h3U" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen></iframe>
+      <img class="education-image" src="img/social/message.png" alt="message icon">
+    </section>
+  </main>
+</body>
+</html>

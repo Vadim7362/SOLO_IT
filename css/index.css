@@ -1,0 +1,67 @@
+.main {
+  background-color: #c8c8c8;
+}
+.data-filling {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  border-top: 5px solid green;
+}
+
+.status {
+  background-color: green;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.E-mail {
+  border: 1px solid black;
+  display: flex;
+}
+
+.meaning {
+  width: 100%;
+  border: none;
+}
+
+.button{
+  margin: 20px 0 30px;
+}
+
+.warning {
+  background-color: #ffa500;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+.warning-title {
+  color: #fff;
+}
+
+.warning-text{
+  color: #fff;
+}
+
+.warning-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.education {
+  margin-left: 10px;
+  position: relative;
+}
+
+.education-image {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
