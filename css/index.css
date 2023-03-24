@@ -1,5 +1,7 @@
 .main {
+  padding: 10px 0;
   background-color: #c8c8c8;
+  
 }
 .data-filling {
   display: flex;
@@ -30,6 +32,7 @@
 .button {
   margin: 20px 0 30px;
   background-color: #0099cc;
+  cursor: pointer;
 }
 
 .warning {
@@ -59,10 +62,137 @@
   position: relative;
 }
 
-.education-image {
+.educationBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.educationImage {
   width: 60px;
   height: 60px;
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
+}
+
+.educationButton {
+  width: 200px;
+  height: 50px;
+  background-color: #0099cc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.reportsMain {
+  margin: 50px;
+}
+
+.reportsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__button {
+  height: 30px;
+  background-color: #0099cc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reportsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reportsTable tr:nth-child(odd) {
+  background-color: #f2f3f4;
+}
+
+.reportsTable tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.tableHeader {
+  width: 80%;
+  text-align: left;
+  font-weight: normal;
+  
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
+
+td {
+  text-align: center;
+  padding: 1px;
+}
+
+
+.tableCell {
+  background-color: green;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.tableStatus {
+  color: #0099cc;
+}
+
+.err {
+  background-color: red;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.vebinar {
+  border-bottom: 1px dashed black;
+  cursor: pointer;
+}
+.content {
+  margin-left: 10px;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.contentInfo {
+  margin-left: 50px;
+}
+
+.settings__main {
+  background-color: #c8c8c8;
+}
+.settings__header {
+  
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__item {
+  list-style-type: none;
+  width: 220px;
+  margin: 10px;
+  background-color: #0099cc;
+  justify-content: center;
+  border-radius: 3px;
+  height: 40px;
+}
+
+.menu__link{
+  color: #fff;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.settings__option {
+}
+.title {
+}
+.subtitle {
+}
+.button__green {
+}
+.button__orange {
 }

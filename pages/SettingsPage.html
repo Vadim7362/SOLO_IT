@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+  <main class="settings__main">
+    <header class="settings__header">
+      <a href="../index.html"><button class="main__button button">На главную</button></a>
+      <nav>
+        <ul class="header__menu">
+          <li class="menu__item"><a href="#" class="menu__link">Основные настройки</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Настройки полей Регистрация</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Настройка полей Отчет</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Настройка полей Оплаты</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Распределение сделок</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Создание закладок в GC</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="settings__option">
+      <h2 class="title">Основные настройки Bitrix24</h2>
+      <p>Обновить поля и воронки</p>
+      <h3 class="subtitle">Если несколько проектов, проверять по полю</h3>
+      <p>Поле в Bitrix</p>
+      <select>
+        <option>---</option>
+        <option>---</option>
+        <option>---</option>
+        <option>---</option>
+      </select>
+      <p>Значение поля</p>
+      <input type="text" value="project1">
+      <h3 class="subtitle">Искать только в выбранных воронках (чтобы выделить несколько зажмите CTRL)</h3>
+      <select>
+        <option>Рассылки клиентам[63]</option>
+        <option>Продажа техподдержки[65]</option>
+        <option>HelpDesk[67]</option>
+        <option>Соискатели стажеры[69]</option>
+        <option>Сщискатели менеджера заботы о клиентах[71]</option>
+        <option>Соискатели помощник бухгалтера[73]</option> 
+      </select>
+      <input type="radio"> <p>Не проверять на дубли</p>
+      <h3 class="subtitle">Распределение сделок по менеджерам</h3>
+      <p>Менеджер по умолчанию</p>
+      <select>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+        <option>Программист стажер[5323]</option>
+      </select>
+      <input type="radio"><p>Распределять на нескольких менеджеров</p>
+      <input type="radio"><p>Если есть «контакт», то распределять сделку на менеджера, ответственного за контакт</p>
+      <button class="button__green">Сохранить</button>
+      <button class="button__orange">Отмена</button>
+    </section>
+  </main>
+</body>
+</html>
